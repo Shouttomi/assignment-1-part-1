@@ -13,6 +13,10 @@ import AddBoxIcon from "@mui/icons-material/AddBox";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
 import WbTwilightOutlinedIcon from "@mui/icons-material/WbTwilightOutlined";
+import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
+import KeyboardArrowLeftOutlined from "@mui/icons-material/KeyboardArrowLeftOutlined";
+import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
+import WbTwilightOutlined from "@mui/icons-material/WbTwilightOutlined";
 
 const App = () => {
   return (
@@ -52,43 +56,67 @@ const App = () => {
 
           <article className="newyorkgrid">
             <div className="newyorkflex">
-
               <div className="usaflex">
-
-              <main className="windrotate">
-                <SendOutlinedIcon
-                  sx={{ fontSize: 15 }}
-                  style={{ color: "white" }}
+                <main className="windrotate">
+                  <SendOutlinedIcon
+                    sx={{ fontSize: 15 }}
+                    style={{ color: "white" }}
                   ></SendOutlinedIcon>
-              </main>
-              <span>New York,USA</span>
-                  </div>
+                </main>
+                <span>New York,USA</span>
+              </div>
 
               <div>
-              <WbTwilightOutlinedIcon
-                sx={{ fontSize: 14 }}
-                style={{ color: "white" }}
-              ></WbTwilightOutlinedIcon>
-
-              <span> 07:19</span>
-            </div>
-            </div>
-            
-            <div className=" newyorkflex2">
-
-
-            <div className="smallfont">Today 28 Sept</div>
-            <div>
-              <WbTwilightOutlinedIcon
-                sx={{ fontSize: 14 }}
-                style={{ color: "white" }}
+                <WbTwilightOutlinedIcon
+                  sx={{ fontSize: 14 }}
+                  style={{ color: "white" }}
                 ></WbTwilightOutlinedIcon>
-              <span> 19:32</span>
+
+                <span> 07:19</span>
+              </div>
             </div>
 
-                </div>
-            
+            <div className=" newyorkflex2">
+              <div className="smallfont">Today 28 Sept</div>
+              <div>
+                <WbTwilightOutlinedIcon
+                  sx={{ fontSize: 14 }}
+                  style={{ color: "white" }}
+                ></WbTwilightOutlinedIcon>
+                <span> 19:32</span>
+              </div>
+            </div>
           </article>
+
+          <article className="sunny">
+            <KeyboardArrowLeftOutlined
+              sx={{ fontSize: 30 }}
+              style={{ color: "white" }}
+            ></KeyboardArrowLeftOutlined>
+
+            <main className="bold27">
+              27
+              <div className="smalldegree">&#xb0;</div>
+            </main>
+
+            <KeyboardArrowRight
+              sx={{ fontSize: 30 }}
+              style={{ color: "white" }}
+            ></KeyboardArrowRight>
+          </article>
+
+          <main className="lastflex">
+          <WbSunnyOutlinedIcon
+              sx={{ fontSize: 20 }}
+              style={{ color: "white" }}
+            ></WbSunnyOutlinedIcon>
+            <div>Sunny</div>
+
+          </main>
+
+          <div className="buildingimage">
+            <img src="https://i.pinimg.com/750x/5e/0d/f1/5e0df1fa8acf5c771c63f5fb13ee585b.jpg" alt="" />
+          </div>
 
           <div className="lightblue">
             <main className="firstsection">
