@@ -26,10 +26,13 @@ body{
 .blue{
     position: absolute;
     width: 85%;
+    display: grid;
+    grid-template-columns: 1fr auto;
     height: 95%;
     margin: auto;
     background-color: #5c9ce5;
     border-radius: 3.75rem;
+    padding: 1.5rem;
     top: 0;
     bottom: 0;
     left: 0;
@@ -91,16 +94,19 @@ h4{
 
 
 .welcomeback{
-    margin: 10px;
+    margin-top: 5px;
 }
 
 .lightblue{
 
     display: grid;
     grid-template-rows: 1fr 1fr;
-    width: 75%;
+    width: 78%;
     position: absolute;
     padding: 1rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    
     height: 100%;
     right: 0;
     border-radius: 3.75rem;
@@ -111,6 +117,17 @@ h4{
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
+}
+
+.griddegrees{
+
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    align-items: center;
+    margin-top: 8px;
+
 }
 
 .flex1{
@@ -657,5 +674,96 @@ font-weight: 900;
 
 .feelslikegap{
     gap: 80px;
+}
+
+.initial-loadingbgcolor{
+    background-color: white;
+}
+
+.Initialloading-size{
+    width: 17px;
+    padding-right: 5px;
+    margin-right: 2px;
+    height: 6px;
+}
+
+.dotflex{
+   
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.centiflex{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+}
+
+.justloading-size{
+    width: 25px;
+    background-color: #cde2f9;
+    border-radius: 5px;
+    height: 10px;
+    position: relative;
+}
+
+.circlecolor{
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    width: 17px;
+    border-radius: 10px;
+    height: 17px;
+    top: -3px;
+}
+
+.threedotflex{
+    display: flex;
+    align-items: center;
+}
+
+
+.newyorkgrid{
+    display: grid;
+   
+    grid-template-rows: 1fr 1fr;
+    width: fit-content;
+    position: absolute;
+    top: 5rem;
+    grid-row-gap: 10px;
+    margin-top: 2rem;
+    
+    padding: 24px;
+    color: white;
+}
+
+.windrotate{
+    width: fit-content;
+    margin: 0px;
+
+    transform-origin: center;
+    transform: rotate(-40deg)
+    
+}
+
+.newyorkflex{
+    display: inline-flex;
+    gap: 42px;
+}
+
+.newyorkflex2{
+    display: inline-flex;
+    gap: 77px;
+
+}
+
+.usaflex{
+    display: flex;
+}
+
+.smallfont{
+    font-size: small;
 }
 /* #b5d8ff */

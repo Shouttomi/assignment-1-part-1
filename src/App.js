@@ -7,14 +7,89 @@ import CloudIcon from "@mui/icons-material/Cloud";
 import WaterDropOutlinedIcon from "@mui/icons-material/WaterDropOutlined";
 import ThunderstormOutlinedIcon from "@mui/icons-material/ThunderstormOutlined";
 import AirSharpIcon from "@mui/icons-material/AirSharp";
-import DeviceThermostatOutlinedIcon from '@mui/icons-material/DeviceThermostatOutlined';
-import UmbrellaOutlinedIcon from '@mui/icons-material/UmbrellaOutlined';
+import DeviceThermostatOutlinedIcon from "@mui/icons-material/DeviceThermostatOutlined";
+import UmbrellaOutlinedIcon from "@mui/icons-material/UmbrellaOutlined";
+import AddBoxIcon from "@mui/icons-material/AddBox";
+import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
+import WbTwilightOutlinedIcon from "@mui/icons-material/WbTwilightOutlined";
 
 const App = () => {
   return (
     <div className="content">
       <main className="totalsize">
         <div className="blue">
+          <article className="griddegrees">
+            <div className="welcomeback">
+              <AddBoxIcon
+                sx={{ fontSize: 30 }}
+                style={{ color: "white" }}
+              ></AddBoxIcon>
+            </div>
+
+            <main className="threedotflex">
+              <div className="mainloading Initialloading-size initial-loadingbgcolor"></div>
+
+              <FiberManualRecordIcon
+                sx={{ fontSize: 10 }}
+                style={{ color: "white" }}
+              ></FiberManualRecordIcon>
+              <FiberManualRecordIcon
+                sx={{ fontSize: 10 }}
+                style={{ color: "white" }}
+              ></FiberManualRecordIcon>
+            </main>
+
+            <div className="centiflex">
+              <span style={{ color: "white", fontSize: "10px" }}>&#xb0;C</span>
+
+              <div className="mainloading justloading-size">
+                <span className="circlecolor"></span>
+              </div>
+              <span style={{ color: "white", fontSize: "10px" }}>&#xb0;F</span>
+            </div>
+          </article>
+
+          <article className="newyorkgrid">
+            <div className="newyorkflex">
+
+              <div className="usaflex">
+
+              <main className="windrotate">
+                <SendOutlinedIcon
+                  sx={{ fontSize: 15 }}
+                  style={{ color: "white" }}
+                  ></SendOutlinedIcon>
+              </main>
+              <span>New York,USA</span>
+                  </div>
+
+              <div>
+              <WbTwilightOutlinedIcon
+                sx={{ fontSize: 14 }}
+                style={{ color: "white" }}
+              ></WbTwilightOutlinedIcon>
+
+              <span> 07:19</span>
+            </div>
+            </div>
+            
+            <div className=" newyorkflex2">
+
+
+            <div className="smallfont">Today 28 Sept</div>
+            <div>
+              <WbTwilightOutlinedIcon
+                sx={{ fontSize: 14 }}
+                style={{ color: "white" }}
+                ></WbTwilightOutlinedIcon>
+              <span> 19:32</span>
+            </div>
+
+                </div>
+            
+          </article>
+
           <div className="lightblue">
             <main className="firstsection">
               <article className="grid1">
@@ -379,21 +454,19 @@ const App = () => {
 
                     <main className="small-loading UVIndexgap">
                       <div className="mainloading UVIndexloading-size small-loadingbgcolor"></div>
-                      
+
                       <div className="mainloading UVIndexloading-size">
-                        
                         <span className="quartercolor"></span>
                       </div>
                       <div className="mainloading UVIndexloading-size "></div>
                       <div className="mainloading UVIndexloading-size "></div>
                       <div className="mainloading UVIndexloading-size "></div>
-
                     </main>
                   </div>
                 </article>
 
                 <article className="smallbox">
-                <main className="humiditygrid">
+                  <main className="humiditygrid">
                     <div>Feels like</div>
 
                     <div className="bluesmallestcontainer">
@@ -407,7 +480,7 @@ const App = () => {
                   </main>
 
                   <main className="bad82">
-                    <span className="weight82">30&#xb0;</span> 
+                    <span className="weight82">30&#xb0;</span>
                   </main>
 
                   <div className="numberline-center">
@@ -418,22 +491,21 @@ const App = () => {
                       <div className="mainloading mainloading-letter ">
                         25&#xb0;
                       </div>
-                      <div className="mainloading mainloading-letter ">50&#xb0;</div>
+                      <div className="mainloading mainloading-letter ">
+                        50&#xb0;
+                      </div>
                     </main>
 
                     <main className="small-loading ">
-                      
                       <div className="mainloading firstloading-size full-loading">
                         <span className="threefourthcolor"></span>
                       </div>
                     </main>
                   </div>
-
-
                 </article>
 
                 <article className="smallbox">
-                <main className="humiditygrid">
+                  <main className="humiditygrid">
                     <div>Chance of rain</div>
 
                     <div className="bluesmallestcontainer">
@@ -470,13 +542,11 @@ const App = () => {
                     </main>
 
                     <main className="small-loading ">
-                      
                       <div className="mainloading firstloading-size full-loading">
                         <span className="quartercolor"></span>
                       </div>
                     </main>
                   </div>
-
                 </article>
               </main>
             </main>
