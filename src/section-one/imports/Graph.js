@@ -1,9 +1,9 @@
-import UpcomingHours from "../../UpcomingHours"
-import Weather from "../../Weather"
-import Temperature1 from "../../Temperature1"
-import LineComponent from "../../LineComponent"
-import TimeComponent from "../../TimeComponent"
-import Temperature2 from "../../Temperature2"
+import {UpcomingHours} from "../../components"
+import {Weather} from "../../components"
+import {Temperature1} from "../../components"
+import {LineComponent} from "../../components"
+import {TimeComponent} from "../../components"
+import {Temperature2} from "../../components"
 
 const Graph = () => {
   return (

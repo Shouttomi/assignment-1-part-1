@@ -1,5 +1,5 @@
 
-import { SendOutlinedIcon,WbTwilightOutlinedIcon } from "./imports"
+import { SendOutlinedIcon,WbTwilightOutlinedIcon } from "../imports"
 
 const Newyorkgrid = () => {
   return (

@@ -1,5 +1,5 @@
 
-import { WbSunnyOutlinedIcon } from "./imports"
+import { WbSunnyOutlinedIcon } from "../imports"
 const Sunnyflex = () => {
   return (
 <main className="lastflex">

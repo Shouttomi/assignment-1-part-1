@@ -1,5 +1,5 @@
 import { AirSharpIcon } from "../../imports"
-import GaugeNumbers from "../../GaugeNumbers"
+import {GaugeNumbers} from "../../components"
 
 const Wind = () => {
   return (

@@ -1,5 +1,5 @@
 
-import { LightModeOutlinedIcon,CloudIcon } from "./imports";
+import { LightModeOutlinedIcon,CloudIcon } from "../imports";
 const Weather = () => {
 
     const weatherIcons = [

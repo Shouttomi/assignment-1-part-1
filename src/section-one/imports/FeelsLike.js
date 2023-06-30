@@ -1,5 +1,5 @@
 import { DeviceThermostatOutlinedIcon } from "../../imports"
-import Threetemperatures from "../../Threetemperatures"
+import {Threetemperatures} from "../../components"
 
 const FeelsLike = () => {
   return (

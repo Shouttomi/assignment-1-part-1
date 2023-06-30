@@ -1,7 +1,7 @@
 
 import { ThunderstormOutlinedIcon } from "../../imports"
-import ManyLoadingNumbers from "../../ManyLoadingNumbers"
-import ManyLoadings from "../../ManyLoadings"
+import {ManyLoadingNumbers} from "../../components"
+import {ManyLoadings} from "../../components"
 
 const Precipitation = () => {
   return (

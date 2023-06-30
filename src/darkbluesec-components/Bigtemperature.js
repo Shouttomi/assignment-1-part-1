@@ -1,12 +1,12 @@
 
-import { KeyboardArrowLeftOutlined,KeyboardArrowRight } from "./imports"
+import { KeyboardArrowLeftOutlined,KeyboardArrowRight } from "../imports"
 
 const Bigtemperature = () => {
   return (
     <article className="sunny">
     <KeyboardArrowLeftOutlined
       sx={{ fontSize: 30 }}
-      style={{ color: "white" }}
+      style={{ color: "white", opacity:0.5 }}
     ></KeyboardArrowLeftOutlined>
 
     <main className="bold27">
@@ -16,7 +16,7 @@ const Bigtemperature = () => {
 
     <KeyboardArrowRight
       sx={{ fontSize: 30 }}
-      style={{ color: "white" }}
+      style={{ color: "white",opacity:0.5 }}
     ></KeyboardArrowRight>
   </article>
   )

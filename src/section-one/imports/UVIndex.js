@@ -1,6 +1,6 @@
 import { LightModeOutlinedIcon } from "../../imports"
-import NumberLine from "../../NumberLine"
-import UVIndexLoading from "../../UVIndexLoading"
+import {NumberLine} from "../../components"
+import {UVIndexLoading} from "../../components"
 
 const UVIndex = () => {
   return (

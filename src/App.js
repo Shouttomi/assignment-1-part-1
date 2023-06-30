@@ -1,7 +1,7 @@
 import "./index.css";
 
 import Lightbluesection from "./section-one/Lightbluesection";
-import Darkbluesection from "./Darkbluesection";
+import Darkbluesection from "./darkbluesec-components/Darkbluesection";
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import { UmbrellaOutlinedIcon } from "../../imports";
-import Loadingpercent from "../../Loadingpercent";
-import SmallLoading from "../../SmallLoading";
+import {Loadingpercent} from "../../components";
+import {SmallLoading} from "../../components";
 
 const Chanceofrain = () => {
   return (

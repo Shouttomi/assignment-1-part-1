@@ -1,4 +1,4 @@
-import { KeyboardArrowDownIcon,KeyboardArrowRightIcon } from "./imports"
+import { KeyboardArrowDownIcon,KeyboardArrowRightIcon } from "../imports"
 
 const UpcomingHours = () => {
   return (
@@ -6,7 +6,7 @@ const UpcomingHours = () => {
           <h3>Upcoming hours</h3>
 
           <div className="flex2">
-            <div className="grey flexnext">
+            <div className="lightgrey flexnext">
               <div className="rain">Rain Precipitation</div>
 
               <KeyboardArrowDownIcon
@@ -15,7 +15,7 @@ const UpcomingHours = () => {
             </div>
 
             <div className="grey flexnext">
-              <div className="rain">next days</div>
+              <div className="rain">Next days</div>
               <KeyboardArrowRightIcon
                 sx={{ fontSize: 20 }}
               ></KeyboardArrowRightIcon>

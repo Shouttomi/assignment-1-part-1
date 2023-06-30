@@ -4,8 +4,8 @@ const WelcomeBack = () => {
   return (
 <article className="grid1">
         <div className="welcomeback">
-          <h2>welcome back isabella! </h2>
-          <h3>check out today's weather information </h3>
+          <h2 className="boldwelcome">Welcome back Isabella! </h2>
+          <h3>Check out today's weather information </h3>
         </div>
 
         <div className="flex1">
