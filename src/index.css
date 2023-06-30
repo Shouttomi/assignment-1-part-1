@@ -510,45 +510,52 @@ font-weight: 900;
 .commonsmall{
     font-size: small;
     font-weight: lighter;
+    
     position: relative;
 }
 
 .zero{
     top: 4.5rem;
-    right: 1.3rem;
+    right: 1.5rem;
+    font-size: 10px;
 }
 
 .five{
     top: 2.5rem;
-    right: 1.4rem;
+    right: 1.5rem;
+    font-size: 10px;
 }
 
 .ten{
     top: 0.5rem;
     right: 0.2rem;
+    font-size: 10px;
 }
 
 .twenty{
     top: 0.5rem;
-    right: -1.7rem;
+    right: -1.8rem;
+    font-size: 10px;
 
 }
 
 .thirty{
-    top: 2.5rem;
-    right: -2.7rem;
+    top: 2.6rem;
+    right: -2.9rem;
+    font-size: 10px;
 }
 
 .fourty{
 
     top: 4.5rem;
-    right: -2.2rem;
+    right: -2.6rem;
+    font-size: 10px;
 
 }
 
 .counter{
     position: absolute;
-    right: 6.8rem;
+    right: 7.5rem;
 
 }
 
