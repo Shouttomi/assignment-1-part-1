@@ -1,4 +1,4 @@
-import "./index.css";
+import "./index2.css";
 
 import Lightbluesection from "./section-one/Lightbluesection";
 import Darkbluesection from "./darkbluesec-components/Darkbluesection";
